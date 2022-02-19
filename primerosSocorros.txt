@@ -2,7 +2,7 @@ git log --online // trazer logs
 
 desfazer o que eu fiz desde o ultimo commmit
   git clean -df
-  git checkout --
+  git checkout -- .
   
  remover o ultimo commit mantendo os arquivos do jeito que estão
     git reset --hard HEAD-1
