@@ -5,10 +5,10 @@ desfazer o que eu fiz desde o ultimo commmit
   git checkout -- .
   
  remover o ultimo commit mantendo os arquivos do jeito que estão
-    git reset --hard HEAD-1
+    git reset --hard HEAD~1
   
  remover o ultimo commit inclusive as alterações nos arquivos
-    git reset --hard HEAD-1
+    git reset --hard HEAD~1
   
  alterar temporariamente os arquivos do projeto
     git checkout <código do commit>
