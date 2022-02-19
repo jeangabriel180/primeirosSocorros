@@ -1,0 +1,26 @@
+git log --online // trazer logs
+
+desfazer o que eu fiz desde o ultimo commmit
+  git clean -df
+  git checkout --
+  
+ remover o ultimo commit mantendo os arquivos do jeito que estão
+    git reset --hard HEAD-1
+  
+ remover o ultimo commit inclusive as alterações nos arquivos
+    git reset --hard HEAD-1
+  
+ alterar temporariamente os arquivos do projeto
+    git checkout <código do commit>
+  
+ apagar ultimo commit do gitHub
+    git push -f origin HEAD^:master
+
+
+muda o repositório remoto "Origin"
+  git remote set-url origin https://github.com/acenelio/novoprojeto.git
+  
+sair do VIM
+
+esc e :q! e enter
+  
